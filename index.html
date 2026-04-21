@@ -1,352 +1,449 @@
 <!DOCTYPE html>
 <html lang="vi">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Chuyên cung cấp bạt đêm cao cấp, bạt che mưa, bạt che nắng chất lượng cao, giá cạnh tranh tại Việt Nam">
-    <meta name="keywords" content="bạt đêm, bạt che mưa, bạt che nắng, bạt công trình, bạt cao cấp">
-    <title>Bạt Đêm Cao Cấp - Chuyên Bạt Che Mưa, Che Nắng Chất Lượng</title>
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="./index.js">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bạt Đệm Hoan Thanh – Chất Lượng Tiêu Chuẩn Hàn Quốc</title>
+<meta name="description" content="Bạt dứa, bạt ô tô chất lượng cao tiêu chuẩn Hàn Quốc. Hơn 20 năm kinh nghiệm. Phục vụ Hà Nội và toàn quốc.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Be+Vietnam+Pro:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <!-- Navbar -->
-    <nav class="navbar" id="navbar">
-        <div class="container">
-            <div class="nav-wrapper">
-                <div class="logo">
-                    <span class="logo-text">BẠT ĐÊM HOAN THANH</span>
-                </div>
 
-                <div class="nav-menu" id="navMenu">
-                    <a href="#home" class="nav-link">Trang chủ</a>
-                    <a href="#products" class="nav-link">Sản phẩm</a>
-                    <a href="#contact" class="nav-link">Liên hệ</a>
-                </div>
+<!-- ===== TICKER ===== -->
+<div class="ticker-bar">
+  <div class="ticker-track" id="ticker">
+    <div class="ticker-item"><span class="ticker-dot"></span> Bạt dứa chống nắng chống mưa – Tiêu chuẩn Hàn Quốc</div>
+    <div class="ticker-item"><span class="ticker-dot"></span> Hơn 20 năm kinh nghiệm sản xuất bạt đệm chất lượng cao</div>
+    <div class="ticker-item"><span class="ticker-dot"></span> Bạt ô tô không mùi hóa chất, an toàn sức khỏe</div>
+    <div class="ticker-item"><span class="ticker-dot"></span> Phục vụ đại lý, hộ dân, doanh nghiệp vận tải toàn Hà Nội</div>
+    <div class="ticker-item"><span class="ticker-dot"></span> Dịch vụ vá bạt ép nhiệt chuyên nghiệp – bền đẹp như mới</div>
+    <div class="ticker-item"><span class="ticker-dot"></span> Bạt may đúng tiêu chuẩn theo xe – giá thành niêm yết rõ ràng</div>
+  </div>
+</div>
 
-                <div class="nav-cta">
-                    <a href="tel:0912168869" class="btn btn-call">
-                        <span class="btn-icon">📞</span>
-                        Gọi ngay
-                    </a>
-                </div>
-
-                <button class="hamburger" id="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
-        </div>
+<!-- ===== HEADER ===== -->
+<header>
+  <div class="header-inner">
+    <a href="#" class="logo">
+      <div class="logo-mark">HT</div>
+      <div class="logo-text">
+        <span class="logo-name">HOAN THANH</span>
+        <span class="logo-sub">Bạt Đệm Chất Lượng Cao</span>
+      </div>
+    </a>
+    <nav>
+      <a href="#" class="active">Trang chủ</a>
+      <a href="#gioi-thieu">Giới thiệu</a>
+      <a href="#san-pham">Sản phẩm</a>
+      <a href="#lien-he">Liên hệ</a>
+      <a href="tel:0912168869" class="btn-hotline">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+        </svg>
+        0912 168 869
+      </a>
     </nav>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#">Trang chủ</a>
+    <a href="#gioi-thieu">Giới thiệu</a>
+    <a href="#san-pham">Sản phẩm</a>
+    <a href="#lien-he">Liên hệ</a>
+    <a href="tel:0912168869" style="color:var(--orange);font-weight:600;">📞 Gọi ngay: 0912 168 869</a>
+  </div>
+</header>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-overlay"></div>
-        <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title">
-                    Chuyên cung cấp bạt đêm<br>
-                    <span class="highlight">chống mưa, chống nắng</span>
-                </h1>
-                <p class="hero-description">
-                    Bạt chất lượng cao cấp, độ bền vượt trội, giá cạnh tranh nhất thị trường.<br>
-                    Phục vụ mọi công trình, mọi nhu cầu của khách hàng.
-                </p>
-                <div class="hero-cta">
-                    <a href="tel:0912168869" class="btn btn-primary">
-                        <span class="btn-icon">📞</span>
-                        Gọi ngay
-                    </a>
-                    <a href="https://zalo.me/0912168869" class="btn btn-secondary" target="_blank">
-                        <span class="btn-icon">💬</span>
-                        Nhắn Zalo
-                    </a>
-                </div>
-            </div>
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hero-geo"></div>
+  <div class="hero-inner">
+    <div class="hero-content">
+      <div class="hero-badge">Tiêu chuẩn Hàn Quốc</div>
+      <h1>BẠT ĐỆM<span>HOAN THANH</span></h1>
+      <p class="hero-sub">Chuyên sản xuất bạt dứa, bạt ô tô chất lượng cao. Bạt chống nắng, chống mưa, không mùi hoá chất — an toàn cho sức khoẻ và phù hợp mọi nhu cầu.</p>
+      <div class="hero-actions">
+        <a href="tel:0912168869" class="btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          Gọi tư vấn ngay
+        </a>
+        <a href="#san-pham" class="btn-outline">Xem sản phẩm →</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <div class="stat-num">20+</div>
+          <div class="stat-label">Năm kinh nghiệm</div>
         </div>
-        
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Liên hệ với chúng tôi</h2>
-            </div>
-
-            <div class="contact-wrapper">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <div class="contact-icon">📞</div>
-                        <div class="contact-details">
-                            <h3>Số điện thoại</h3>
-                            <a href="tel:0987654321">0912168869 - 02433684949</a>
-                        </div>
-                    </div>
-
-                    <div class="contact-item">
-                        <div class="contact-icon">💬</div>
-                        <div class="contact-details">
-                            <h3>Zalo - Mr.Hoan</h3>
-                            <a href="https://zalo.me/0912168869" target="_blank">0912168869</a>
-                        </div>
-                    </div>
-
-                    <div class="contact-item">
-                        <div class="contact-icon">🌐</div>
-                        <div class="contact-details">
-                            <h3>Facebook</h3>
-                            <a href="https://facebook.com/batdemhoanthanh"
-                                target="_blank">https://www.facebook.com/batdemhoanthanh/</a>
-                        </div>
-                    </div>
-
-                    <div class="contact-item">
-                        <div class="contact-icon">📍</div>
-                        <div class="contact-details">
-                            <h3>Địa chỉ</h3>
-                            <p>Nhà số 323, Khu công nghiệp Chàng Sơn<br>Xã Tây Phương, Tp. Hà Nội</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="contact-map">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.785110491514!2d105.58572117596985!3d21.041282587346956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313459fb7dcd46e1%3A0x57e56d6d9d2d6e70!2sHoan%20Thanh!5e0!3m2!1svi!2s!4v1770793073156!5m2!1svi!2s"
-                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>
+        <div class="stat-item">
+          <div class="stat-num">7</div>
+          <div class="stat-label">Dòng sản phẩm</div>
         </div>
-    </section>
-
-    <!-- Products Section -->
-    <section class="products" id="products">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Sản phẩm nổi bật</h2>
-                <p class="section-subtitle">Đa dạng mẫu mã, đáp ứng mọi nhu cầu</p>
-            </div>
-
-            <div class="products-grid">
-                <div class="product-card">
-                    <div class="product-image">
-                        <div class="product-badge">Bán chạy</div>
-                        <img src="https://scontent.fhan7-1.fna.fbcdn.net/v/t39.30808-6/589121200_807691858983562_5344579831418033535_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=_cp-kO-YcTcQ7kNvwEXK4mb&_nc_oc=AdkJ8lzbsyuESIt4_fFoOilTLnMVP0BqJ3ykZlBMqYmV8K9SfWSZRsWqFEFnaxzuDaM&_nc_zt=23&_nc_ht=scontent.fhan7-1.fna&_nc_gid=lcYWdIkLCKILuPG9KaSOMQ&oh=00_AfsbphAHzLwy95TuOGf-_lpqWKEkynxL_ddjn2EaSIhGvQ&oe=6992078B"
-                            alt="Bạt dứa">
-                    </div>
-                    <div class="product-info">
-                        <h3 class="product-name">Bạt Dứa (bạt cam xanh)</h3>
-                        <p class="product-description">
-                            Bạt chống thấm 100%, chịu mưa gió tốt, phù hợp mọi công trình.
-                        </p>
-                        <div class="product-price">
-
-                        </div>
-                        <a href="#contact" class="btn btn-product">Liên hệ ngay</a>
-                    </div>
-                </div>
-
-                <div class="product-card">
-                    <div class="product-image">
-                        <div class="product-badge">Bán chạy</div>
-                        <img src="https://scontent.fhan7-1.fna.fbcdn.net/v/t39.30808-6/483966201_593073850445365_3735889565287019170_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=kbKwA-FkaUYQ7kNvwHYh0xE&_nc_oc=AdmkVKsaBac8DYCXAHXjfCZJHK-S63fhQGHY_mxalrhMFrVtiMpRxT0qsSVEU9jV2uM&_nc_zt=23&_nc_ht=scontent.fhan7-1.fna&_nc_gid=UxTfVdj6N5lX1voj3l3VNw&oh=00_AfszMB0msx5VfIQJQkJfn6Z5pagJxeh_AoqESO4iUWegIQ&oe=69920D50"
-                            alt="Bạt che nắng Pro">
-                    </div>
-                    <div class="product-info">
-                        <h3 class="product-name">Bạt Kẻ (sọc)</h3>
-                        <p class="product-description">
-                            Bạt phục vụ công trình, đổ mái, che nắng che mưa, bạt nhẹ và bền.
-                        </p>
-                        <div class="product-price">
-
-                        </div>
-                        <a href="#contact" class="btn btn-product">Liên hệ ngay</a>
-                    </div>
-                </div>
-
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://scontent.fhan7-1.fna.fbcdn.net/v/t39.30808-6/479551667_571824445903639_6973956522693168723_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=_rf9XLWikD4Q7kNvwFRuqVZ&_nc_oc=AdnWToxdsIGVT59nPe60Kh2oFLTcmK0_K6rrq2Bx2FdUMcTQzzIpWp_6ISUpUFx_i_g&_nc_zt=23&_nc_ht=scontent.fhan7-1.fna&_nc_gid=d25BTzDeAkAapKgM2-RncA&oh=00_AftWsE3zoWeAGyFDr_PBYnDziGaWxXrDh3esYLDQLSSZyQ&oe=6991F65E"
-                            alt="Bạt công trình">
-                    </div>
-                    <div class="product-info">
-                        <div class="product-badge new">Hot</div>
-                        <h3 class="product-name">Bạt Da (bạt ô tô)</h3>
-                        <p class="product-description">
-                            Bạt da bền bỉ với thời gian, phục vụ các dòng xe ô tô tải. Độ bền cao, có thể sử dụng 3-5
-                            năm.
-                        </p>
-                        <div class="product-price">
-
-                        </div>
-                        <a href="#contact" class="btn btn-product">Liên hệ ngay</a>
-                    </div>
-                </div>
-
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://scontent.fhan7-1.fna.fbcdn.net/v/t39.30808-6/480709764_576739752078775_2125972150625738730_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=qSYSYly1hxwQ7kNvwFVNQ_O&_nc_oc=AdkQRrcx4MWCGj-5oEdJ67aDiHReVOIj5NvoFLpLDdWIZYKUgxbCbH0r95o3mz5VNVU&_nc_zt=23&_nc_ht=scontent.fhan7-1.fna&_nc_gid=Mzv5kxAWeWygoXu8M6etzQ&oh=00_AfuNlFkV-6ASHUW6WVxzrUOI8noI3BpggPAd8DItfEnZsg&oe=69921D26"
-                            alt="Bạt trong suốt">
-                    </div>
-                    <div class="product-info">
-                        <h3 class="product-name">Bạt Xanh Nõn Chuối (bạt ô tô)</h3>
-                        <p class="product-description">
-                            Bạt xanh bền bỉ với thời gian, phục vụ các dòng xe ô tô tải. Độ bền cao, nhẹ nhàng.
-                        </p>
-                        <div class="product-price">
-                        </div>
-                        <a href="#contact" class="btn btn-product">Liên hệ ngay</a>
-                    </div>
-                </div>
-
-                <div class="product-card">
-                    <div class="product-image">
-                        <div class="product-badge">Tiết kiệm</div>
-                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect fill='%231a2332' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' font-size='24' fill='%2364748b' text-anchor='middle' dy='.3em' font-family='Arial'%3EBạt Giá Rẻ%3C/text%3E%3C/svg%3E"
-                            alt="Bạt giá rẻ">
-                    </div>
-                    <div class="product-info">
-                        <h3 class="product-name">Các dòng bạt khác</h3>
-                        <p class="product-description">
-                            Dịch vụ may vá bạt. Ép nhiệt các dòng bạt da. 
-                        </p>
-                        <div class="product-price">
-                        </div>
-                        <a href="#contact" class="btn btn-product">Liên hệ ngay</a>
-                    </div>
-                </div>
-
-                <div class="product-card">
-                    <div class="product-image">
-                        <div class="product-badge new">Cao cấp</div>
-                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect fill='%231a2332' width='400' height='300'/%3E%3Ctext x='50%25' y='50%25' font-size='24' fill='%2364748b' text-anchor='middle' dy='.3em' font-family='Arial'%3EBạt Nhà Kho%3C/text%3E%3C/svg%3E"
-                            alt="Bạt nhà kho">
-                    </div>
-                    <div class="product-info">
-                        <h3 class="product-name">Bạt Nhà Kho Chuyên Dụng</h3>
-                        <p class="product-description">
-                            Siêu bền, chống mối mọt, phù hợp làm mái che kho bãi lớn.
-                        </p>
-                        <div class="product-price">
-                        </div>
-                        <a href="#contact" class="btn btn-product">Liên hệ ngay</a>
-                    </div>
-                </div>
-            </div>
+        <div class="stat-item">
+          <div class="stat-num">KCN</div>
+          <div class="stat-label">Chàng Sơn – HN</div>
         </div>
-    </section>
+      </div>
+    </div>
 
+    <!-- Hero Image Grid – ảnh được quản lý bởi main.js -->
+    <div class="hero-visual">
+      <div class="hero-img-grid">
+        <div class="hero-img-card big" data-img-key="hero-main"></div>
+        <div class="hero-img-card" data-img-key="hero-bat-dua"></div>
+        <div class="hero-img-card" data-img-key="hero-bat-oto"></div>
+      </div>
+    </div>
+  </div>
+</section>
 
-
-    <!-- About Section -->
-    <section class="about">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Tại sao chọn chúng tôi?</h2>
-                <p class="section-subtitle">Uy tín - Cam kết chất lượng - Giá cả hợp lý</p>
-            </div>
-
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">⭐</div>
-                    <h3 class="feature-title">Chất lượng cao cấp</h3>
-                    <p class="feature-description">
-                        Bạt đêm chất lượng Hàn Quốc cao cấp, chống thấm tuyệt đối,
-                        chịu được mọi điều kiện thời tiết khắc nghiệt.
-                    </p>
-                </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon">🔧</div>
-                    <h3 class="feature-title">Độ bền vượt trội</h3>
-                    <p class="feature-description">
-                        Lựa chọn những dòng bạt chất lượng tốt nhất. Phù hợp với nhu cầu sử dụng.
-
-                    </p>
-                </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon">💰</div>
-                    <h3 class="feature-title">Giá cạnh tranh</h3>
-                    <p class="feature-description">
-                        Báo giá minh bạch, cạnh tranh nhất thị trường,
-                        nhiều ưu đãi cho đơn hàng số lượng lớn.
-                    </p>
-                </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon">🚚</div>
-                    <h3 class="feature-title">Uy tín</h3>
-                    <p class="feature-description">
-                        Với kinh nghiệm làm bạt hơn 20 năm. Chúng tôi mang đến cho khách hàng chất lượng dịch vụ và sản
-                        phẩm tốt nhất.
-                    </p>
-                </div>
-            </div>
+<!-- ===== GIỚI THIỆU ===== -->
+<section id="gioi-thieu">
+  <div class="container">
+    <div class="section-label">Về chúng tôi</div>
+    <div class="section-title">Hai mươi năm<br>chất lượng & uy tín</div>
+    <div class="about-grid">
+      <div class="about-visual">
+        <!-- Ảnh về xưởng – quản lý bởi main.js -->
+        <div class="about-main-img" data-img-key="about"></div>
+        <div class="about-badge-float">
+          <div class="num">2005</div>
+          <div class="lbl">Thành lập</div>
         </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3 class="footer-title">BẠT ĐÊM HOAN THANH</h3>
-                    <p class="footer-description">
-                        Chuyên cung cấp bạt đêm chất lượng cao, phục vụ toàn quốc
-                        với giá cả cạnh tranh nhất.
-                    </p>
-                    <div class="social-links">
-                        <a href="https://facebook.com/batdemhoanthanh" class="social-link" target="_blank">📘</a>
-                        <a href="https://zalo.me/0987654321" class="social-link" target="_blank">💬</a>
-                        <a href="tel:0987654321" class="social-link">📞</a>
-                    </div>
-                </div>
-
-                <div class="footer-section">
-                    <h4 class="footer-heading">Liên kết nhanh</h4>
-                    <ul class="footer-links">
-                        <li><a href="#home">Trang chủ</a></li>
-                        <li><a href="#products">Sản phẩm</a></li>
-                        <li><a href="#contact">Liên hệ</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-section">
-                    <h4 class="footer-heading">Sản phẩm</h4>
-                    <ul class="footer-links">
-                        <li><a href="#products">Bạt che mưa</a></li>
-                        <li><a href="#products">Bạt che nắng</a></li>
-                        <li><a href="#products">Bạt công trình</a></li>
-                        <li><a href="#products">Bạt trong suốt</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-section">
-                    <h4 class="footer-heading">Liên hệ</h4>
-                    <ul class="footer-links">
-                        <li>📞 0912 168 869</li>
-                        <li>💬 Zalo: 0912 168 869</li>
-                        <li>📍 Nhà số 323, Khu công nghiệp Chàng Sơn, xã Tây Phương, Tp. Hà Nội</li>
-                    </ul>
-                </div>
+      </div>
+      <div class="about-content">
+        <p style="font-size:16px;line-height:1.8;color:var(--gray-700);margin-bottom:20px;">
+          <strong>Bạt Đệm Hoan Thanh</strong> – thương hiệu uy tín hơn 20 năm tại Khu công nghiệp Chàng Sơn, xã Tây Phương, Hà Nội. Chúng tôi chuyên sản xuất và cung cấp <strong>bạt dứa, bạt ô tô chất lượng cao</strong> theo tiêu chuẩn Hàn Quốc, phục vụ đa dạng đối tượng từ hộ dân, đại lý đến doanh nghiệp vận tải.
+        </p>
+        <p style="font-size:15px;line-height:1.8;color:var(--gray-400);margin-bottom:28px;">
+          Sản phẩm được kiểm định chặt chẽ, <strong>không mùi hoá chất</strong>, an toàn cho sức khoẻ người dùng. Bạt may đúng kích thước theo từng loại xe, giá thành niêm yết minh bạch — đó là cam kết của Hoan Thanh.
+        </p>
+        <div class="about-features">
+          <div class="feature-card">
+            <div class="feature-icon">✅</div>
+            <div>
+              <div class="feature-title">Tiêu chuẩn Hàn Quốc</div>
+              <div class="feature-desc">Đạt kiểm định chất lượng quốc tế</div>
             </div>
-
-            <div class="footer-bottom">
-                <p>&copy; 2025 Bạt Đêm Hoan Thanh. All rights reserved.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🌿</div>
+            <div>
+              <div class="feature-title">Không mùi hoá chất</div>
+              <div class="feature-desc">An toàn cho người dùng & môi trường</div>
             </div>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">📐</div>
+            <div>
+              <div class="feature-title">May theo xe</div>
+              <div class="feature-desc">Đúng chuẩn kích thước từng loại xe</div>
+            </div>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">💰</div>
+            <div>
+              <div class="feature-title">Giá niêm yết</div>
+              <div class="feature-desc">Minh bạch, cạnh tranh, không ép giá</div>
+            </div>
+          </div>
         </div>
-    </footer>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- Scroll to top button -->
-    <button class="scroll-top" id="scrollTop">↑</button>
+<!-- ===== SẢN PHẨM ===== -->
+<section id="san-pham">
+  <div class="container">
+    <div class="section-label">Sản phẩm</div>
+    <div class="section-title">Dòng sản phẩm<br>của Hoan Thanh</div>
+    <div class="section-desc">Đa dạng chủng loại bạt, phù hợp mọi nhu cầu từ che phủ hàng hoá đến bảo vệ xe.</div>
+    <div class="products-grid">
 
-    <script src="script.js"></script>
+      <div class="product-card">
+        <!-- data-img-key được JS nhận diện để gán ảnh -->
+        <div class="product-img" data-img-key="bat-dua-xanh-cam">
+          <span class="product-tag">Bán chạy</span>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Bạt Dứa Xanh Cam</div>
+          <div class="product-desc">Chống nắng, chống mưa vượt trội. Sợi dứa dệt dày, bền chắc, không thấm nước. Dùng cho che phủ hàng hoá, công trình.</div>
+          <div class="product-footer">
+            <span class="product-price">Liên hệ báo giá</span>
+            <a href="tel:0912168869" class="product-cta">Hỏi mua →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img" data-img-key="bat-ke-soc"></div>
+        <div class="product-body">
+          <div class="product-name">Bạt Kẻ Sọc</div>
+          <div class="product-desc">Bạt kẻ sọc đa năng, nhẹ, dễ gấp gọn. Phù hợp cho hộ dân, chợ, sân phơi, điểm kinh doanh lưu động.</div>
+          <div class="product-footer">
+            <span class="product-price">Liên hệ báo giá</span>
+            <a href="tel:0912168869" class="product-cta">Hỏi mua →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img" data-img-key="bat-da-o-to">
+          <span class="product-tag">Cao cấp</span>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Bạt Da Ô Tô</div>
+          <div class="product-desc">Bề mặt da cao cấp, mềm mại, không trầy xước xe. May đúng chuẩn từng dòng xe, chống nắng UV hiệu quả.</div>
+          <div class="product-footer">
+            <span class="product-price">Liên hệ báo giá</span>
+            <a href="tel:0912168869" class="product-cta">Hỏi mua →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img" data-img-key="bat-xanh-non-chuoi"></div>
+        <div class="product-body">
+          <div class="product-name">Bạt Xanh Nõn Chuối</div>
+          <div class="product-desc">Bạt ô tô màu xanh nõn chuối thanh lịch. Vải dày, chống tia UV, giữ màu bền. Không mùi, an toàn sức khoẻ.</div>
+          <div class="product-footer">
+            <span class="product-price">Liên hệ báo giá</span>
+            <a href="tel:0912168869" class="product-cta">Hỏi mua →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img" data-img-key="bat-ghi-xam"></div>
+        <div class="product-body">
+          <div class="product-name">Bạt Xanh Ghi Xám</div>
+          <div class="product-desc">Bạt ô tô màu ghi xám hài hòa. Vải dày, chống tia UV, giữ màu bền. Không mùi, an toàn sức khoẻ.</div>
+          <div class="product-footer">
+            <span class="product-price">Liên hệ báo giá</span>
+            <a href="tel:0912168869" class="product-cta">Hỏi mua →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img" data-img-key="bat-phu-o-to"></div>
+        <div class="product-body">
+          <div class="product-name">Bạt Cách Nhiệt Ô Tô</div>
+          <div class="product-desc">Bạt ô tô màu ghi cách nhiệt. Vải mỏng nhẹ, chống tia UV, giữ màu bền. Không mùi, an toàn sức khoẻ.</div>
+          <div class="product-footer">
+            <span class="product-price">Liên hệ báo giá</span>
+            <a href="tel:0912168869" class="product-cta">Hỏi mua →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img" data-img-key="va-bat">
+          <span class="product-tag">Dịch vụ</span>
+        </div>
+        <div class="product-body">
+          <div class="product-name">Vá Bạt Ép Nhiệt</div>
+          <div class="product-desc">Dịch vụ vá bạt ép nhiệt chuyên nghiệp, bền chắc như mới. Tiết kiệm chi phí, nhanh chóng, đường vá không thấm nước.</div>
+          <div class="product-footer">
+            <span class="product-price">Liên hệ báo giá</span>
+            <a href="tel:0912168869" class="product-cta">Hỏi dịch vụ →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img" data-img-key="tui-chuyen-dung"></div>
+        <div class="product-body">
+          <div class="product-name">Túi Đồ Chuyên Dụng</div>
+          <div class="product-desc">Túi chứa đồ từ vải bạt cao cấp, chịu tải tốt. Thiết kế đa năng cho công trường, vận chuyển hàng hoá, lưu kho.</div>
+          <div class="product-footer">
+            <span class="product-price">Liên hệ báo giá</span>
+            <a href="tel:0912168869" class="product-cta">Hỏi mua →</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== CAM KẾT ===== -->
+<section class="why-section">
+  <div class="container">
+    <div class="section-label">Vì sao chọn chúng tôi</div>
+    <div class="section-title">Cam kết của<br>Hoan Thanh</div>
+    <div class="section-desc">Chúng tôi không chỉ bán bạt – chúng tôi cung cấp giải pháp che phủ toàn diện, bền vững cho mọi khách hàng.</div>
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-icon">🏆</div>
+        <div class="why-title">20+ Năm Kinh Nghiệm</div>
+        <div class="why-desc">Thành lập từ 2005, chúng tôi am hiểu từng nhu cầu thị trường bạt đệm Hà Nội và cả nước.</div>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🇰🇷</div>
+        <div class="why-title">Tiêu Chuẩn Hàn Quốc</div>
+        <div class="why-desc">Nguyên liệu và quy trình sản xuất theo chuẩn kiểm định, đảm bảo độ bền và an toàn vượt trội.</div>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🌱</div>
+        <div class="why-title">Không Mùi Hoá Chất</div>
+        <div class="why-desc">Bạt không phát tán mùi hóa chất độc hại – an toàn cho sức khoẻ người dùng và môi trường.</div>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">📋</div>
+        <div class="why-title">Giá Niêm Yết Rõ Ràng</div>
+        <div class="why-desc">Bảng giá công khai, không ép giá. Đại lý và khách lẻ đều được hưởng mức giá cạnh tranh nhất.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== LIÊN HỆ ===== -->
+<section id="lien-he">
+  <div class="container">
+    <div class="section-label">Liên hệ</div>
+    <div class="section-title">Tư vấn & đặt hàng</div>
+    <div class="section-desc">Chúng tôi sẵn sàng hỗ trợ bạn từ thứ 2 đến thứ 7, từ 8 giờ sáng đến 6 giờ chiều.</div>
+    <div class="contact-layout">
+      <div class="contact-info">
+
+        <a href="https://zalo.me/0912168869" target="_blank" class="contact-card">
+          <div class="contact-icon orange">📞</div>
+          <div>
+            <div class="contact-label">Điện thoại / Zalo</div>
+            <div class="contact-value">0912 168 869</div>
+            <div class="contact-sub">Nhấn để nhắn tin Zalo hoặc gọi hỗ trợ</div>
+          </div>
+        </a>
+
+        <a href="mailto:nguyengialoc240101@gmail.com" class="contact-card">
+          <div class="contact-icon blue">✉️</div>
+          <div>
+            <div class="contact-label">Email</div>
+            <div class="contact-value">nguyengialoc240101@gmail.com</div>
+            <div class="contact-sub">Gửi yêu cầu báo giá chi tiết qua email</div>
+          </div>
+        </a>
+
+        <a href="https://www.facebook.com/batdemhoanthanh" target="_blank" class="contact-card">
+          <div class="contact-icon blue">📘</div>
+          <div>
+            <div class="contact-label">Facebook Fanpage</div>
+            <div class="contact-value">Bạt Đệm Hoan Thanh</div>
+            <div class="contact-sub">Nhắn tin trực tiếp trên Facebook để được hỗ trợ</div>
+          </div>
+        </a>
+
+        <div class="contact-card">
+          <div class="contact-icon orange">📍</div>
+          <div>
+            <div class="contact-label">Địa chỉ xưởng</div>
+            <div class="contact-value" style="font-size:14px;">Nhà số 323, KCN Chàng Sơn, Xã Tây Phương, Hà Nội</div>
+            <div class="contact-sub">Giờ làm việc: 8h – 18h, Thứ 2 – Thứ 7</div>
+          </div>
+        </div>
+
+        <a href="https://maps.app.goo.gl/UiGwiTPmPycuEA796" target="_blank"
+           class="contact-card contact-cta-blue">
+          <div style="font-size:24px;">🗺️</div>
+          <div>
+            <div class="contact-value">Xem vị trí trên Google Maps</div>
+            <div class="contact-sub">KCN Chàng Sơn, Xã Tây Phương, Hà Nội</div>
+          </div>
+        </a>
+
+      </div>
+
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.785110491514!2d105.58572117596985!3d21.041282587346956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313459fb7dcd46e1%3A0x57e56d6d9d2d6e70!2sHoan%20Thanh!5e0!3m2!1svi!2s!4v1770793073156!5m2!1svi!2s"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Vị trí Bạt Đệm Hoan Thanh">
+        </iframe>
+        <div id="map-fallback" class="map-fallback">
+          <div style="font-size:40px;">📍</div>
+          <div style="font-weight:600;color:var(--blue);">KCN Chàng Sơn, Xã Tây Phương, Hà Nội</div>
+          <div style="font-size:14px;">Nhà số 323, Khu công nghiệp Chàng Sơn</div>
+          <a href="https://maps.google.com/?q=KCN+Chang+Son+Tay+Phuong+Ha+Noi" target="_blank">🗺️ Mở Google Maps</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">
+          <div class="logo-mark" style="width:42px;height:42px;font-size:18px;">HT</div>
+          <div class="logo-text">
+            <span class="logo-name">HOAN THANH</span>
+            <span class="logo-sub">Bạt Đệm Chất Lượng Cao</span>
+          </div>
+        </div>
+        <p class="footer-desc">Chuyên sản xuất bạt dứa, bạt ô tô tiêu chuẩn Hàn Quốc. Hơn 20 năm uy tín tại Hà Nội. Sản phẩm không mùi hoá chất, an toàn sức khoẻ.</p>
+      </div>
+      <div>
+        <div class="footer-title">Sản phẩm</div>
+        <div class="footer-links">
+          <a href="#san-pham">Bạt dứa xanh cam</a>
+          <a href="#san-pham">Bạt kẻ sọc</a>
+          <a href="#san-pham">Bạt da ô tô</a>
+          <a href="#san-pham">Bạt xanh nõn chuối</a>
+          <a href="#san-pham">Bạt xanh ghi xám</a>
+          <a href="#san-pham">Bạt xanh cách nhiệt ô tô</a>
+          <a href="#san-pham">Vá bạt ép nhiệt</a>
+          <a href="#san-pham">Túi đồ chuyên dụng</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-title">Liên hệ</div>
+        <div class="footer-links">
+          <a href="tel:0912168869">📞 0912 168 869</a>
+          <a href="mailto:nguyengialoc240101@gmail.com">✉️ Email chúng tôi</a>
+          <a href="https://www.facebook.com/batdemhoanthanh" target="_blank">📘 Facebook Fanpage</a>
+          <a href="https://maps.google.com/?q=KCN+Chang+Son+Tay+Phuong+Ha+Noi" target="_blank">📍 Xem bản đồ</a>
+        </div>
+        <div style="margin-top:20px;font-size:13px;color:rgba(255,255,255,0.4);">
+          Giờ làm việc:<br>
+          <span style="color:rgba(255,255,255,0.7);">8h – 18h, Thứ 2 – Chủ nhật</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Bạt Đệm Hoan Thanh. Khu CN Chàng Sơn, Xã Tây Phương, Hà Nội.</span>
+      <span>Thiết kế website chuyên nghiệp cho thương hiệu Việt</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== FLOATING BUTTONS ===== -->
+<div class="float-buttons">
+  <a href="https://www.facebook.com/batdemhoanthanh" target="_blank" class="float-btn fb" title="Nhắn tin Facebook">
+    <span class="float-label">Nhắn tin Facebook</span>
+    <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+  </a>
+  <a href="https://zalo.me/0912168869" target="_blank" class="float-btn zalo" title="Chat Zalo">
+    <span class="float-label">Chat Zalo</span>
+    <svg viewBox="0 0 48 48"><rect width="48" height="48" rx="24" fill="#0068ff"/><text x="24" y="32" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="16" fill="white">Z</text></svg>
+  </a>
+  <a href="tel:0912168869" class="float-btn call" title="Gọi ngay">
+    <span class="float-label">Gọi: 0912 168 869</span>
+    <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+  </a>
+</div>
+
+<!-- JS cuối cùng để không block render -->
+<script src="js/main.js"></script>
+
 </body>
-
 </html>
